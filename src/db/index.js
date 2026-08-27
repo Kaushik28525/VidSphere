@@ -9,7 +9,9 @@ const connectDB = async () => {
     }catch (error) {
         console.log(" mongoose conection FAILED", error);
         process.exit(1);
+
     }
+    
 }
 
 export default connectDB;
